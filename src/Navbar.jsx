@@ -8,13 +8,17 @@ export const Navbar = () => {
     const [menuClicked, setMenuClicked] = useState(false)
 
     const handleClick = () => {
-        console.log('a click was made')
+        setMenuClicked(prevState => !prevState)
     }
+
+
+    console.log(menuClicked)
     return (
         <nav>
-            <ul className='bg-white w-[329px] h-[305px] absolute 
-        left-0 right-0 mx-auto top-[106px] flex-col items-center place-content-around
-        after:content[""] after:absolute after:top-[-24px] after:right-0 after:border-[12px] after:border-t-transparent after:border-l-transparent after:border-b-white after:border-r-white text-Dark-grayish-blue text-xl hidden'>
+            <ul
+                className={`bg-white py-[39px] w-[329px] h-[305px] absolute 
+                left-0 right-0 mx-auto top-[106px] flex-col         items-center place-content-around
+                after:content[""] after:absolute after:top-[-24px]      after:right-0 after:border-[12px] after:border-t-transparent after:border-l-transparent     after:border-b-white after:border-r-white      text-Dark-grayish-blue text-xl ${menuClicked ? 'flex' : 'hidden'}`}>
                 <li className='cursor-pointer'>About</li>
                 <li className='cursor-pointer'>Services</li>
                 <li className='cursor-pointer'>Projects</li>
