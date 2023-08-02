@@ -11,7 +11,7 @@ export default {
         'Yellow': 'hsl(51, 100%, 49%)',
         'Dark-desaturated-cyan': 'hsl(167, 40%, 24%)',
         'Dark-blue': 'hsl(198, 62%, 26%)',
-        'Dark-moderate': 'hsl(168, 34%, 41%)',
+        'Dark-moderate-cyan': 'hsl(168, 34%, 41%)',
 
         'Very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',
         'Very-dark-grayish-blue': 'hsl(213, 9 %, 39 %)',
@@ -22,6 +22,10 @@ export default {
       fontFamily: {
         'Barlow': ['Barlow', 'sans-serif'],
         'Fraunces': ['Fraunces', 'serif'],
+      },
+      screens: {
+        'tablet': '700px',
+        'desktop': '1440px'
       }
     },
   },
