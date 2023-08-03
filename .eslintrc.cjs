@@ -16,5 +16,12 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/prop-types': [
+      'enable',
+      {
+        ignore: [],
+        skipUnderclared: flase
+      }
+    ]
   },
 }
