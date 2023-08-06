@@ -48,6 +48,7 @@ export const About = () => {
                 />
 
                 <ImageText
+                    order='order-5'
                     imgMobile={graphicDesingMobile}
                     imgDesktop={graphicDesingDesktop}
                     title='Graphic design'
@@ -55,6 +56,7 @@ export const About = () => {
                 />
 
                 <ImageText
+                    order='order-6'
                     imgMobile={photographyMobile}
                     imgDesktop={photographyDesktop}
                     title='Photography'
