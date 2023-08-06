@@ -1,4 +1,4 @@
-export const ImageText = ({ imgMobile, imgDesktop, title, text }) => {
+export const ImageText = ({ order, imgMobile, imgDesktop, title, text }) => {
     return (
         <div className="order-5 relative pt-[398px] sm:pt-[350px] tablet:pt-[150px] md:pt-[160px] lg:pt-[250px] xl:pt-[350px] desktop:pt-[398px]">
             <picture className="absolute z-[-1] top-0">
