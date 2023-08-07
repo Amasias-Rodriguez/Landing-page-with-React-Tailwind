@@ -1,6 +1,7 @@
 import { Header } from "./components/Header"
 import { Main } from "./components/Main"
 import { Services } from "./components/Services"
+import { TestimonialContainer } from "./components/TestimonialContainer"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <Services />
+      <TestimonialContainer />
     </main>
   )
 }
